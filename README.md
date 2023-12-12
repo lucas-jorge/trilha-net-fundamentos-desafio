@@ -35,4 +35,24 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Nome do Projeto: Sistema de Estacionamento
+
+Descrição do Projeto:
+O Sistema de Estacionamento é uma aplicação simples que permite gerenciar um estacionamento. O projeto foi desenvolvido na linguagem de programação C# e faz uso de conceitos básicos de programação para interagir com o usuário e realizar operações como adicionar veículos ao estacionamento, remover veículos e listar os veículos estacionados.
+
+Funcionalidades Principais:
+
+    Adicionar Veículo: Permite ao usuário adicionar um veículo ao estacionamento, solicitando que ele insira a placa do veículo. A placa é então adicionada a uma lista de veículos estacionados e é exibida uma mensagem de confirmação.
+
+    Remover Veículo: Permite ao usuário remover um veículo do estacionamento, mediante a inserção da placa do veículo. A aplicação verifica se o veículo está realmente estacionado, pede a quantidade de horas que o veículo permaneceu no estacionamento, calcula o valor total com base nas tarifas de estacionamento (preço inicial e preço por hora), remove o veículo da lista e exibe o valor total da estadia.
+
+    Listar Veículos: Exibe a lista de veículos atualmente estacionados no estacionamento, caso haja veículos registrados. Se não houver veículos, é exibida uma mensagem informando que o estacionamento está vazio.
+
+Detalhes Técnicos:
+
+    O projeto utiliza uma classe Estacionamento que contém as funcionalidades mencionadas.
+    O preço inicial e a taxa por hora são configurados ao criar uma instância da classe Estacionamento.
+    As placas dos veículos são armazenadas em uma lista na classe.
+    A interface com o usuário é feita por meio da console, onde são exibidas mensagens e lidas as entradas do usuário.
+
+Este projeto pode ser utilizado como base para um sistema de estacionamento mais completo, adicionando recursos adicionais, como persistência de dados, relatórios e funcionalidades mais avançadas de gerenciamento de estacionamento.
